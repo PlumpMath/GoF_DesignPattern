@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GoF.DesignPattern.Strategy.Duck" Collapsed="true">
+    <Position X="3.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAoAAAAAAAAAAAAAABAQAAAAAAACAAAAAAwAAAAAA=</HashCode>
+      <FileName>Strategy\StrategyPattern.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IFlyableBehaviour" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GoF.DesignPattern.Strategy.FlyWithRocket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Strategy\StrategyPattern.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.487" Collapsed="true" />
+  </Class>
+  <Class Name="GoF.DesignPattern.Strategy.FlyAsCarrier" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Strategy\StrategyPattern.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.664" Collapsed="true" />
+  </Class>
+  <Class Name="GoF.DesignPattern.Strategy.NoFly" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8" Y="3.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Strategy\StrategyPattern.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.758" Collapsed="true" />
+  </Class>
+  <Class Name="GoF.DesignPattern.Strategy.RedheadDuck" Collapsed="true">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Strategy\StrategyPattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoF.DesignPattern.Strategy.MallabuDuck" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Strategy\StrategyPattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoF.DesignPattern.Strategy.NorthWildDuck" Collapsed="true">
+    <Position X="2.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Strategy\StrategyPattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoF.DesignPattern.Strategy.ToyDuck" Collapsed="true">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Strategy\StrategyPattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="GoF.DesignPattern.Strategy.IFlyableBehaviour" Collapsed="true">
+    <Position X="9.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Strategy\StrategyPattern.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
