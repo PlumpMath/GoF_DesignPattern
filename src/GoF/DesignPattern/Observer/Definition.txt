@@ -1,0 +1,3 @@
+﻿Observer Pattern
+
+It defines one to many relationship between objects such that when state of one object change then all other objects are notified and updated.

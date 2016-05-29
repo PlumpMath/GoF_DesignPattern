@@ -93,7 +93,12 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Observer\Observer.png" />
+    <Content Include="Observer\ObserverGeneral.PNG" />
+    <Content Include="Observer\Definition.txt" />
     <Content Include="Strategy\Definition.txt" />
+    <Content Include="Strategy\Strategy.png" />
+    <Content Include="Strategy\StrategyGeneral.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
