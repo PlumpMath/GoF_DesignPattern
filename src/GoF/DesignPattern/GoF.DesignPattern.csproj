@@ -47,6 +47,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>GoF.DesignPattern.ObserverMain</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -58,6 +61,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ObserverMain.cs" />
+    <Compile Include="Observer\DisplayForecast.cs" />
+    <Compile Include="Observer\DisplayStatistics.cs" />
+    <Compile Include="Observer\IDisplay.cs" />
+    <Compile Include="Observer\IObservable.cs" />
+    <Compile Include="Observer\IObserver.cs" />
+    <Compile Include="Observer\WeatherStation.cs" />
     <Compile Include="Strategy\EvolvingToStrategy4.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strategy\EvolvingToStrategy.cs" />
