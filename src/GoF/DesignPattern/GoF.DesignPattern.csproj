@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>GoF.DesignPattern.ObserverMain</StartupObject>
+    <StartupObject>GoF.DesignPattern.DecoratorMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -61,6 +61,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DecoratorMain.cs" />
+    <Compile Include="Decorator\BorderDecorator.cs" />
+    <Compile Include="Decorator\Decorator.cs" />
+    <Compile Include="Decorator\DocumentComponent.cs" />
+    <Compile Include="Decorator\FontDecorator.cs" />
+    <Compile Include="Decorator\GraphView.cs" />
+    <Compile Include="Decorator\HeaderAndFooterDecorator.cs" />
+    <Compile Include="Decorator\ScrollBarDecorator.cs" />
+    <Compile Include="Decorator\TextView.cs" />
     <Compile Include="ObserverMain.cs" />
     <Compile Include="Observer\DisplayForecast.cs" />
     <Compile Include="Observer\DisplayStatistics.cs" />
@@ -93,6 +102,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Decorator\Decorator.png" />
+    <Content Include="Decorator\DecoratorGeneral.PNG" />
+    <Content Include="Decorator\Definition.txt" />
     <Content Include="Observer\Observer.png" />
     <Content Include="Observer\ObserverGeneral.PNG" />
     <Content Include="Observer\Definition.txt" />

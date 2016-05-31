@@ -1,0 +1,7 @@
+﻿Decorator Pattern (Structural Pattern)
+
+Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending
+functionality.
+
+Based on Open Closed principle of SOLID design.
+ 

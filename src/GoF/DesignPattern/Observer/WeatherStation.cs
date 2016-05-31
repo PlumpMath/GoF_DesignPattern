@@ -8,7 +8,7 @@ namespace GoF.DesignPattern.Observer
     /// Since we do not have a real device here for the API to cumunicate with, we will provide dummy data to the API to test our purpose.
     /// AccuWeather has informed that <see cref="WeatherDataUpdated"/> method will be called whenever the data updates.
     /// </summary>
-    internal class WeatherStation : IObservable, IObserver
+    internal class WeatherStation : IObservable
     {
         public int Temperature { get; private set; }
         public float Humidity { get; private set; }
