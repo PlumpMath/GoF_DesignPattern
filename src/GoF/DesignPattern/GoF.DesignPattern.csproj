@@ -71,6 +71,16 @@
     <Compile Include="Decorator\ScrollBarDecorator.cs" />
     <Compile Include="Decorator\TextView.cs" />
     <Compile Include="FactoryMain.cs" />
+    <Compile Include="Factory\FactoryMethod\DelhiCheesePizza.cs" />
+    <Compile Include="Factory\FactoryMethod\DelhiPizzaStore.cs" />
+    <Compile Include="Factory\FactoryMethod\DelhiFarmhousePizza.cs" />
+    <Compile Include="Factory\FactoryMethod\MumbaiCheesePizza.cs" />
+    <Compile Include="Factory\FactoryMethod\MumbaiFarmhousePizza.cs" />
+    <Compile Include="Factory\FactoryMethod\MumbaiPeppypaneerPizza.cs" />
+    <Compile Include="Factory\FactoryMethod\MumbaiPizzaStore.cs" />
+    <Compile Include="Factory\FactoryMethod\DelhiPeppypaneerPizza.cs" />
+    <Compile Include="Factory\FactoryMethod\Pizza.cs" />
+    <Compile Include="Factory\FactoryMethod\PizzaStore.cs" />
     <Compile Include="Factory\SimpleFactory\CheesePizza.cs" />
     <Compile Include="Factory\SimpleFactory\FarmhousePizza.cs" />
     <Compile Include="Factory\SimpleFactory\PeppypaneerPizza.cs" />
@@ -112,6 +122,10 @@
     <Content Include="Decorator\Decorator.png" />
     <Content Include="Decorator\DecoratorGeneral.PNG" />
     <Content Include="Decorator\Definition.txt" />
+    <Content Include="Factory\FactoryMethod\Definition.txt" />
+    <Content Include="Factory\FactoryMethod\FactoryMethod.png" />
+    <Content Include="Factory\FactoryMethod\FactoryMethodGeneral.PNG" />
+    <Content Include="Factory\SimpleFactory\SimpleFactory.png" />
     <Content Include="Observer\Observer.png" />
     <Content Include="Observer\ObserverGeneral.PNG" />
     <Content Include="Observer\Definition.txt" />
@@ -121,7 +135,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Factory\AbstractFactory\" />
-    <Folder Include="Factory\FactoryMethod\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
