@@ -1,5 +1,4 @@
-﻿using System;
-using GoF.DesignPattern.Strategy;
+﻿using GoF.DesignPattern.Strategy;
 
 namespace GoF.DesignPattern
 {
