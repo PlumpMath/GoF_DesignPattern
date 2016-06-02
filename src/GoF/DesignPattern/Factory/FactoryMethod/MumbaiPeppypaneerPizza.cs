@@ -8,7 +8,7 @@ namespace GoF.DesignPattern.Factory.FactoryMethod
         {
             Name = "Peppy Paneer";
             Crust = "Thick crust";
-            Sauce = "Mumbai Green Sauce";
+            Sauce = "Green Sauce";
             Topping = "Paneer";
         }
 

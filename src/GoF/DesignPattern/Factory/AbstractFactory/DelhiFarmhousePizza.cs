@@ -1,15 +1,16 @@
 ﻿using System;
 
-namespace GoF.DesignPattern.Factory.FactoryMethod
+namespace GoF.DesignPattern.Factory.AbstractFactory
 {
     internal class DelhiFarmhousePizza : Pizza
     {
         public DelhiFarmhousePizza()
         {
+            PizzaIngredients = new DelhiPizzaIngredients();
             Name = "Farm House Pizza";
-            Crust = "Thick crust";
-            Sauce = "Chilly Sauce";
-            Topping = "Capsicum";
+            Crust = PizzaIngredients.CreateCrust().GetCrust();
+            Sauce = PizzaIngredients.CreateSauce().GetSauce();
+            Topping = PizzaIngredients.CreateTopping().GetTopping();
         }
 
         public override void Bake()

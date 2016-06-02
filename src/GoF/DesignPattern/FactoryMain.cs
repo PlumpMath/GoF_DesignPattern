@@ -1,5 +1,6 @@
 ﻿using System;
-using GoF.DesignPattern.Factory.FactoryMethod;
+//using GoF.DesignPattern.Factory.FactoryMethod;
+using GoF.DesignPattern.Factory.AbstractFactory;
 
 namespace GoF.DesignPattern
 {
@@ -8,7 +9,7 @@ namespace GoF.DesignPattern
         public static void Main()
         {
             /*
-             * Following code is for Simple Factory
+             * Below commented code is for Simple Factory
              * 
              * 
             SimplePizzaFactory simplePizzaFactory = new SimplePizzaFactory();
@@ -22,6 +23,11 @@ namespace GoF.DesignPattern
             pizzaStore.OrderPizza("farmhouse");
             */
 
+            /*
+             * Below commented code is for FactoryMethod
+             * 
+             */
+
             Console.WriteLine("1st Pizza --> \n");
 
             PizzaStore mumbaiPizzaStore = new MumbaiPizzaStore();
@@ -31,6 +37,8 @@ namespace GoF.DesignPattern
 
             PizzaStore delhiPizzaStore = new DelhiPizzaStore();
             delhiPizzaStore.OrderPizza("peppypaneer");
+
+
         }
     }
 }

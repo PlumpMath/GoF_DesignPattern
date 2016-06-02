@@ -8,7 +8,7 @@ namespace GoF.DesignPattern.Factory.FactoryMethod
         {
             Name = "Farm House Pizza";
             Crust = "Thick crust";
-            Sauce = "Mumbai Chilly Sauce";
+            Sauce = "Chilly Sauce";
             Topping = "Capsicum";
         }
 

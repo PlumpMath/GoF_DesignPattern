@@ -71,6 +71,28 @@
     <Compile Include="Decorator\ScrollBarDecorator.cs" />
     <Compile Include="Decorator\TextView.cs" />
     <Compile Include="FactoryMain.cs" />
+    <Compile Include="Factory\AbstractFactory\Crust.cs" />
+    <Compile Include="Factory\AbstractFactory\DelhiCheesePizza.cs" />
+    <Compile Include="Factory\AbstractFactory\DelhiCrust.cs" />
+    <Compile Include="Factory\AbstractFactory\DelhiFarmhousePizza.cs" />
+    <Compile Include="Factory\AbstractFactory\DelhiPeppypaneerPizza.cs" />
+    <Compile Include="Factory\AbstractFactory\DelhiPizzaIngredients.cs" />
+    <Compile Include="Factory\AbstractFactory\DelhiPizzaStore.cs" />
+    <Compile Include="Factory\AbstractFactory\DelhiSauce.cs" />
+    <Compile Include="Factory\AbstractFactory\DelhiTopping.cs" />
+    <Compile Include="Factory\AbstractFactory\IPizzaIngredients.cs" />
+    <Compile Include="Factory\AbstractFactory\MumbaiCheesePizza.cs" />
+    <Compile Include="Factory\AbstractFactory\MumbaiFarmhousePizza.cs" />
+    <Compile Include="Factory\AbstractFactory\MumbaiPeppypaneerPizza.cs" />
+    <Compile Include="Factory\AbstractFactory\MumbaiPizzaIngredients.cs" />
+    <Compile Include="Factory\AbstractFactory\MumbaiPizzaStore.cs" />
+    <Compile Include="Factory\AbstractFactory\MumbaiSauce.cs" />
+    <Compile Include="Factory\AbstractFactory\MumbaiTopping.cs" />
+    <Compile Include="Factory\AbstractFactory\MumbiCrust.cs" />
+    <Compile Include="Factory\AbstractFactory\Pizza.cs" />
+    <Compile Include="Factory\AbstractFactory\PizzaStore.cs" />
+    <Compile Include="Factory\AbstractFactory\Sauce.cs" />
+    <Compile Include="Factory\AbstractFactory\Topping.cs" />
     <Compile Include="Factory\FactoryMethod\DelhiCheesePizza.cs" />
     <Compile Include="Factory\FactoryMethod\DelhiPizzaStore.cs" />
     <Compile Include="Factory\FactoryMethod\DelhiFarmhousePizza.cs" />
@@ -122,6 +144,9 @@
     <Content Include="Decorator\Decorator.png" />
     <Content Include="Decorator\DecoratorGeneral.PNG" />
     <Content Include="Decorator\Definition.txt" />
+    <Content Include="Factory\AbstractFactory\AbstractFactory.png" />
+    <Content Include="Factory\AbstractFactory\AbstractFactoryGeneral.PNG" />
+    <Content Include="Factory\AbstractFactory\Definition.txt" />
     <Content Include="Factory\FactoryMethod\Definition.txt" />
     <Content Include="Factory\FactoryMethod\FactoryMethod.png" />
     <Content Include="Factory\FactoryMethod\FactoryMethodGeneral.PNG" />
@@ -133,9 +158,7 @@
     <Content Include="Strategy\Strategy.png" />
     <Content Include="Strategy\StrategyGeneral.PNG" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Factory\AbstractFactory\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

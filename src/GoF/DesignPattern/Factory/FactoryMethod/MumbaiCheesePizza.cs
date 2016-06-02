@@ -7,7 +7,7 @@ namespace GoF.DesignPattern.Factory.FactoryMethod
         public MumbaiCheesePizza()
         {
             Name = "Cheese Pizza";
-            Sauce = "Mumbai Red Sauce";
+            Sauce = "Red Sauce";
             Crust = "Thin Crust";
             Topping = "Mozarella Cheese";
         }
