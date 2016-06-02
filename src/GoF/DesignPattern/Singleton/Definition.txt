@@ -1,0 +1,24 @@
+﻿Singleton Pattern
+
+It ensures that only a single instance of class is created and provides a global point of access to it.
+
+--There are many way to implement a Singleton Pattern in C#.
+
+ 1.   No Thread Safe Singleton.
+ 2.   Thread-Safety Singleton.
+ 3.   Thread-Safety Singleton using Double-Check Locking.
+ 4.   Thread-Safe Singleton without using locks and no lazy instantiation.
+ 5.   Fully lazy instantiation.
+ 6.   Using .NET 4's Lazy<T> type.
+
+ --Singleton vs Static class
+
+ Both has a single instance and access is global. But here are the difference
+
+ 1. Singleton is pattern
+ 2. Singleton class can implement interface where as sStatic class cannot.
+ 3. Singleton class can be inherited(but idealy it should not) but Static class cannot be inherited.
+ 4. Singleton class instance can be passed on as a parameter to a method but it is not possible for static class.
+ 5. Singleton class is also thread-safe.
+ 6. Singleton class instance can be lazily created but the call static constructor in static class is left to the CLR but its invocation is mostly hold to
+    the lastpoint before any thing is accessed inside the class.
