@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>GoF.DesignPattern.FactoryMain</StartupObject>
+    <StartupObject>GoF.DesignPattern.CommandMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -61,6 +61,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommandMain.cs" />
+    <Compile Include="Command\AC.cs" />
+    <Compile Include="Command\AcOffCommand.cs" />
+    <Compile Include="Command\AcOnCommand.cs" />
+    <Compile Include="Command\EmptyCommand.cs" />
+    <Compile Include="Command\ICommand.cs" />
+    <Compile Include="Command\Light.cs" />
+    <Compile Include="Command\LightOffCommand.cs" />
+    <Compile Include="Command\LightOnCommand.cs" />
+    <Compile Include="Command\RemoteControl.cs" />
+    <Compile Include="Command\WashingMachine.cs" />
+    <Compile Include="Command\WashingMachingOffCommand.cs" />
+    <Compile Include="Command\WashingMachingOnCommand.cs" />
     <Compile Include="DecoratorMain.cs" />
     <Compile Include="Decorator\BorderDecorator.cs" />
     <Compile Include="Decorator\Decorator.cs" />
@@ -147,6 +160,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Command\Command.png" />
+    <Content Include="Command\CommandGeneral.PNG" />
+    <Content Include="Command\Definition.txt" />
     <Content Include="Decorator\Decorator.png" />
     <Content Include="Decorator\DecoratorGeneral.PNG" />
     <Content Include="Decorator\Definition.txt" />

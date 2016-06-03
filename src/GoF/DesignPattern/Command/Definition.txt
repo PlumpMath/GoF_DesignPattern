@@ -1,0 +1,8 @@
+﻿Command Pattern (Encapsulating Invocation)
+
+Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations. 
+
+I basically shows how an invoker communicates with the receiver in a loosely coupled way. It has command object in between. 
+Command object has a single method which encapsulates all the method calls of receiver. Command object also holds a refernce to receiver object.
+Invoker invokes that method of the Command object which in turn executes the method calls on the receiver object.
+  
