@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>GoF.DesignPattern.CommandMain</StartupObject>
+    <StartupObject>GoF.DesignPattern.AdapterMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -61,6 +61,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdapterMain.cs" />
+    <Compile Include="Adapter\CardReaderAdapter.cs" />
+    <Compile Include="Adapter\IMemory.cs" />
+    <Compile Include="Adapter\Pendrive.cs" />
+    <Compile Include="Adapter\SDCard.cs" />
+    <Compile Include="Adapter\SonyLaptop.cs" />
     <Compile Include="CommandMain.cs" />
     <Compile Include="Command\AC.cs" />
     <Compile Include="Command\AcOffCommand.cs" />
@@ -160,6 +166,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Adapter\Adapter.png" />
+    <Content Include="Adapter\AdapterGeneral.PNG" />
+    <Content Include="Adapter\Definition.txt" />
     <Content Include="Command\Command.png" />
     <Content Include="Command\CommandGeneral.PNG" />
     <Content Include="Command\Definition.txt" />
