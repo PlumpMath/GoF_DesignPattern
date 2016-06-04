@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>GoF.DesignPattern.AdapterMain</StartupObject>
+    <StartupObject>GoF.DesignPattern.FacadeMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -89,6 +89,14 @@
     <Compile Include="Decorator\HeaderAndFooterDecorator.cs" />
     <Compile Include="Decorator\ScrollBarDecorator.cs" />
     <Compile Include="Decorator\TextView.cs" />
+    <Compile Include="FacadeMain.cs" />
+    <Compile Include="Facade\Address.cs" />
+    <Compile Include="Facade\Discount.cs" />
+    <Compile Include="Facade\Inventory.cs" />
+    <Compile Include="Facade\OnlineShoppingFacade.cs" />
+    <Compile Include="Facade\OrderDetails.cs" />
+    <Compile Include="Facade\Payment.cs" />
+    <Compile Include="Facade\Shipping.cs" />
     <Compile Include="FactoryMain.cs" />
     <Compile Include="Factory\AbstractFactory\Crust.cs" />
     <Compile Include="Factory\AbstractFactory\DelhiCheesePizza.cs" />
@@ -175,6 +183,9 @@
     <Content Include="Decorator\Decorator.png" />
     <Content Include="Decorator\DecoratorGeneral.PNG" />
     <Content Include="Decorator\Definition.txt" />
+    <Content Include="Facade\Definition.txt" />
+    <Content Include="Facade\Facade.png" />
+    <Content Include="Facade\FacadeGeneral.PNG" />
     <Content Include="Factory\AbstractFactory\AbstractFactory.png" />
     <Content Include="Factory\AbstractFactory\AbstractFactoryGeneral.PNG" />
     <Content Include="Factory\AbstractFactory\Definition.txt" />
