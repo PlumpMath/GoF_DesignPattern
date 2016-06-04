@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>GoF.DesignPattern.FacadeMain</StartupObject>
+    <StartupObject>GoF.DesignPattern.TemplateMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -156,6 +156,10 @@
     <Compile Include="Strategy\EvolvingToStrategy2.cs" />
     <Compile Include="Strategy\EvolvingToStrategy3.cs" />
     <Compile Include="Strategy\StrategyPattern.cs" />
+    <Compile Include="TemplateMain.cs" />
+    <Compile Include="Template\Beverage.cs" />
+    <Compile Include="Template\Coffee.cs" />
+    <Compile Include="Template\Tea.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -200,6 +204,9 @@
     <Content Include="Strategy\Definition.txt" />
     <Content Include="Strategy\Strategy.png" />
     <Content Include="Strategy\StrategyGeneral.PNG" />
+    <Content Include="Template\Definition.txt" />
+    <Content Include="Template\Template.png" />
+    <Content Include="Template\TemplateGeneral.PNG" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

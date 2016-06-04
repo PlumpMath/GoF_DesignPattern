@@ -1,0 +1,7 @@
+﻿Template Pattern
+
+Define the skeleton of an algorithm in a method, deferring some steps to subclasses.
+Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure. 
+
+--Based on Hollywood Principle -> Dont call us, we will call you.
+Hight level class shall call the low level class and low level class shall not call the high level class.
