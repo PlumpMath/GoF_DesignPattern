@@ -1,0 +1,30 @@
+﻿Iterator Pattern
+
+Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+
+--Aggregate object is the object which has the data structure(ArrayList, Array, List, HashTables....etc) to hold elements. 
+
+--Consider the following example --->
+
+A hotel which specializes in Breakfast(say Vaishali)has a Menu which contains all the breakfast items. To store all the menu item details(name, description, price..etc),
+a menu class is there. Menu class contains the ArrayList to store all the MenuItems. It also has method to add, remove items from the ArrayList.
+Additionally it also has a GetMenuItem() which returns the ArrayList to client(an application whose job is to print items on screen). This can be used for 
+printing the menu items. Menu class could have had a method to Print the menu items instead of passing the ArrayList to client but this will break the SRP.
+Now since the client has access to ArrayList, it can traverse over the list printing the items as it traverses. Till now everything is fine.
+
+Now, A bigger brand decides to acquire Vaishali and other Hotel(say Rajdhani) which specializes in La Carta. This new Hotel will now have Breakfast Menu items as
+well as Dinner menu items. Rajhani has also their Menu class to hold the MenuItems and does the same job as that of Menu class from Hotel Vaishali.
+Hotel Rajdhani's Menu class use Array unlike the ArrayList used by Vaishali's Menu class. Now our client class has Menus from two class. The problem is that, our
+client has to do the different type of iteration for each type of Menus as they are stored in different data structure. This is serious trouble. Imagine what will
+happen when a new menu will be added, client will have yet another DS to traverse. 3 loops in a single print method to print all the menu items on the screen.
+Thats is not right. It has lot of duplication plus client has all the knowledge of internal representation of Menu class. We need to redesign so that our client
+dont have to do all the traversing logic. Our client should have access to a common iterface and by calling on those method it should be able to traverse
+through the DS independent of which type it is. 
+
+As a solution we can extract out iteration logic to seperate class. This class will adhere to a contract by implemeting few methods of an interface(iterator interface).
+We will have one iterator class for each type of Menu item. This class will have the only resposibility of traversing the DS it is using. Now client will have the
+instance of the iterator returned to it when GetMenuItem() on Menu class is called. As all the iterators adheres to the contract out client should now be able to
+to traverse through the DS the same way for all the Menus. It is much simpler now than the previous implementation where we required 3 loops to traverse on
+3 different DS.
+
+This is the Iterator pattern. With this approach we have been able to hide the internal implementation of our Menu class from client.

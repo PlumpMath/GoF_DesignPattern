@@ -197,6 +197,9 @@
     <Content Include="Factory\FactoryMethod\FactoryMethod.png" />
     <Content Include="Factory\FactoryMethod\FactoryMethodGeneral.PNG" />
     <Content Include="Factory\SimpleFactory\SimpleFactory.png" />
+    <Content Include="Iterator\Definition.txt" />
+    <Content Include="Iterator\Iterator.jpg" />
+    <Content Include="Iterator\IteratorGeneral.PNG" />
     <Content Include="Observer\Observer.png" />
     <Content Include="Observer\ObserverGeneral.PNG" />
     <Content Include="Observer\Definition.txt" />
