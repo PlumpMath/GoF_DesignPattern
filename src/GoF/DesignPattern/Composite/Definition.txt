@@ -1,0 +1,8 @@
+﻿Composite Pattern
+
+Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
+
+--When we use Composite pattern, we do a trade between SRP and Transperancy. We break SRP(Menu class has two responsiblities, one to maintain the tree like structure and second its own.) and get transperancy.
+Client has transperant view of the Component i.e both Menu and MenuItem class has all the same methods even if they are of no use to them. We throw exception if
+wrong Method is called on these classes. 
+We can avoid this by seperating out the interface, but then our client will have to do all the checks to find out the type of object at runtime.

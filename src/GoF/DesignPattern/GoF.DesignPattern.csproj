@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>GoF.DesignPattern.TemplateMain</StartupObject>
+    <StartupObject>GoF.DesignPattern.CompositeMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -80,6 +80,10 @@
     <Compile Include="Command\WashingMachine.cs" />
     <Compile Include="Command\WashingMachingOffCommand.cs" />
     <Compile Include="Command\WashingMachingOnCommand.cs" />
+    <Compile Include="CompositeMain.cs" />
+    <Compile Include="Composite\Component.cs" />
+    <Compile Include="Composite\Menu.cs" />
+    <Compile Include="Composite\MenuItem.cs" />
     <Compile Include="DecoratorMain.cs" />
     <Compile Include="Decorator\BorderDecorator.cs" />
     <Compile Include="Decorator\Decorator.cs" />
@@ -184,6 +188,9 @@
     <Content Include="Command\Command.png" />
     <Content Include="Command\CommandGeneral.PNG" />
     <Content Include="Command\Definition.txt" />
+    <Content Include="Composite\Composite.jpg" />
+    <Content Include="Composite\CompositeGeneral.PNG" />
+    <Content Include="Composite\Definition.txt" />
     <Content Include="Decorator\Decorator.png" />
     <Content Include="Decorator\DecoratorGeneral.PNG" />
     <Content Include="Decorator\Definition.txt" />
