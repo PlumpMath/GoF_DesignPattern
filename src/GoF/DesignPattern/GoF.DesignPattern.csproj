@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>GoF.DesignPattern.StateMain</StartupObject>
+    <StartupObject>GoF.DesignPattern.ProxyMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -147,6 +147,11 @@
     <Compile Include="Observer\IObservable.cs" />
     <Compile Include="Observer\IObserver.cs" />
     <Compile Include="Observer\WeatherStation.cs" />
+    <Compile Include="ProxyMain.cs" />
+    <Compile Include="Proxy\Bank.cs" />
+    <Compile Include="Proxy\Customer.cs" />
+    <Compile Include="Proxy\IBank.cs" />
+    <Compile Include="Proxy\ProtectionProxy.cs" />
     <Compile Include="Singleton\LazyWay.cs" />
     <Compile Include="Singleton\NoThreadSafe.cs" />
     <Compile Include="Singleton\ThreadSafe.cs" />
@@ -217,6 +222,9 @@
     <Content Include="Observer\Observer.png" />
     <Content Include="Observer\ObserverGeneral.PNG" />
     <Content Include="Observer\Definition.txt" />
+    <Content Include="Proxy\Definition.txt" />
+    <Content Include="Proxy\Proxy.png" />
+    <Content Include="Proxy\ProxyGeneral.PNG" />
     <Content Include="Singleton\Definition.txt" />
     <Content Include="State\Definition.txt" />
     <Content Include="State\State.png" />
