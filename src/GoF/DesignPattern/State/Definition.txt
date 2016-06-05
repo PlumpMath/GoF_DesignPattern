@@ -1,0 +1,6 @@
+﻿State Pattern
+
+Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
+
+-- As we can see that in our design each state is dependent on other state. This coupling can be removed by creating all the states in our Ecommenrce class and a
+getter method for each state to get the State we want from there.  This was our state class will have no new Keyword.

@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>GoF.DesignPattern.CompositeMain</StartupObject>
+    <StartupObject>GoF.DesignPattern.StateMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -153,6 +153,13 @@
     <Compile Include="Singleton\ThreadSafeAndLazy.cs" />
     <Compile Include="Singleton\ThreadSafeAndNoLazy.cs" />
     <Compile Include="Singleton\ThreadSafeDoubleChecking.cs" />
+    <Compile Include="StateMain.cs" />
+    <Compile Include="State\Ecommerce.cs" />
+    <Compile Include="State\IFlashSaleStates.cs" />
+    <Compile Include="State\OutOfStock.cs" />
+    <Compile Include="State\ProductSold.cs" />
+    <Compile Include="State\PurchaseInProcess.cs" />
+    <Compile Include="State\SaleActive.cs" />
     <Compile Include="Strategy\EvolvingToStrategy4.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strategy\EvolvingToStrategy.cs" />
@@ -211,6 +218,9 @@
     <Content Include="Observer\ObserverGeneral.PNG" />
     <Content Include="Observer\Definition.txt" />
     <Content Include="Singleton\Definition.txt" />
+    <Content Include="State\Definition.txt" />
+    <Content Include="State\State.png" />
+    <Content Include="State\StateGeneral.PNG" />
     <Content Include="Strategy\Definition.txt" />
     <Content Include="Strategy\Strategy.png" />
     <Content Include="Strategy\StrategyGeneral.PNG" />
