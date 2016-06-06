@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>GoF.DesignPattern.ProxyMain</StartupObject>
+    <StartupObject>GoF.DesignPattern.BuilderMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -67,6 +67,12 @@
     <Compile Include="Adapter\Pendrive.cs" />
     <Compile Include="Adapter\SDCard.cs" />
     <Compile Include="Adapter\SonyLaptop.cs" />
+    <Compile Include="BuilderMain.cs" />
+    <Compile Include="Builder\DelhiCheesePizzaBuilder.cs" />
+    <Compile Include="Builder\MumbaiCheesePizzaBuilder.cs" />
+    <Compile Include="Builder\Pizza.cs" />
+    <Compile Include="Builder\Cook.cs" />
+    <Compile Include="Builder\PizzaBuilder.cs" />
     <Compile Include="CommandMain.cs" />
     <Compile Include="Command\AC.cs" />
     <Compile Include="Command\AcOffCommand.cs" />
@@ -197,6 +203,9 @@
     <Content Include="Adapter\Adapter.png" />
     <Content Include="Adapter\AdapterGeneral.PNG" />
     <Content Include="Adapter\Definition.txt" />
+    <Content Include="Builder\Builder.png" />
+    <Content Include="Builder\BuilderGeneral.PNG" />
+    <Content Include="Builder\Definition.txt" />
     <Content Include="Command\Command.png" />
     <Content Include="Command\CommandGeneral.PNG" />
     <Content Include="Command\Definition.txt" />
