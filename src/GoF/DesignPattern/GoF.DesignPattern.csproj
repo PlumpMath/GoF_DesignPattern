@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>GoF.DesignPattern.BuilderMain</StartupObject>
+    <StartupObject>GoF.DesignPattern.ChainOfResponsibilityMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -73,6 +73,12 @@
     <Compile Include="Builder\Pizza.cs" />
     <Compile Include="Builder\Cook.cs" />
     <Compile Include="Builder\PizzaBuilder.cs" />
+    <Compile Include="ChainOfResponsibilityMain.cs" />
+    <Compile Include="ChainOfResponsibility\BUHead.cs" />
+    <Compile Include="ChainOfResponsibility\Coo.cs" />
+    <Compile Include="ChainOfResponsibility\Employee.cs" />
+    <Compile Include="ChainOfResponsibility\Handler.cs" />
+    <Compile Include="ChainOfResponsibility\Manager.cs" />
     <Compile Include="CommandMain.cs" />
     <Compile Include="Command\AC.cs" />
     <Compile Include="Command\AcOffCommand.cs" />
@@ -206,6 +212,9 @@
     <Content Include="Builder\Builder.png" />
     <Content Include="Builder\BuilderGeneral.PNG" />
     <Content Include="Builder\Definition.txt" />
+    <Content Include="ChainOfResponsibility\COR.png" />
+    <Content Include="ChainOfResponsibility\CORGeneral.PNG" />
+    <Content Include="ChainOfResponsibility\Definition.txt" />
     <Content Include="Command\Command.png" />
     <Content Include="Command\CommandGeneral.PNG" />
     <Content Include="Command\Definition.txt" />
