@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>GoF.DesignPattern.ChainOfResponsibilityMain</StartupObject>
+    <StartupObject>GoF.DesignPattern.MediatorMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -152,6 +152,13 @@
     <Compile Include="Factory\SimpleFactory\Pizza.cs" />
     <Compile Include="Factory\SimpleFactory\PizzaStore.cs" />
     <Compile Include="Factory\SimpleFactory\SimplePizzaFactory.cs" />
+    <Compile Include="MediatorMain.cs" />
+    <Compile Include="Mediator\AbstractPrinter.cs" />
+    <Compile Include="Mediator\HTMLPrinter.cs" />
+    <Compile Include="Mediator\Mediator.cs" />
+    <Compile Include="Mediator\AbstractMediator.cs" />
+    <Compile Include="Mediator\TextPrinter.cs" />
+    <Compile Include="Mediator\XMLPrinter.cs" />
     <Compile Include="ObserverMain.cs" />
     <Compile Include="Observer\DisplayForecast.cs" />
     <Compile Include="Observer\DisplayStatistics.cs" />
@@ -237,6 +244,9 @@
     <Content Include="Iterator\Definition.txt" />
     <Content Include="Iterator\Iterator.jpg" />
     <Content Include="Iterator\IteratorGeneral.PNG" />
+    <Content Include="Mediator\Definition.txt" />
+    <Content Include="Mediator\Mediator.png" />
+    <Content Include="Mediator\MediatorGeneral.PNG" />
     <Content Include="Observer\Observer.png" />
     <Content Include="Observer\ObserverGeneral.PNG" />
     <Content Include="Observer\Definition.txt" />
