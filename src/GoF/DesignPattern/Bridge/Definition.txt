@@ -1,0 +1,7 @@
+﻿Bridge Pattern
+
+Decouple an abstraction from its implementation so that the two can vary independently. 
+
+--Provides one-to-many or many-to-many relationships.
+--Used in case where selection is to made. Like for example - A game has three level of operation namely hard, medium and easy.
+--Looks similar to Strategy and Adapter but varies in intent.

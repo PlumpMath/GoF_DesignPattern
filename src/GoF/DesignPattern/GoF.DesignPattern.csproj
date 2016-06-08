@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>GoF.DesignPattern.MediatorMain</StartupObject>
+    <StartupObject>GoF.DesignPattern.BridgeMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -67,6 +67,13 @@
     <Compile Include="Adapter\Pendrive.cs" />
     <Compile Include="Adapter\SDCard.cs" />
     <Compile Include="Adapter\SonyLaptop.cs" />
+    <Compile Include="BridgeMain.cs" />
+    <Compile Include="Bridge\Communication.cs" />
+    <Compile Include="Bridge\Email.cs" />
+    <Compile Include="Bridge\IApis.cs" />
+    <Compile Include="Bridge\InBuiltAPI.cs" />
+    <Compile Include="Bridge\Sms.cs" />
+    <Compile Include="Bridge\ThirdPartyAPI.cs" />
     <Compile Include="BuilderMain.cs" />
     <Compile Include="Builder\DelhiCheesePizzaBuilder.cs" />
     <Compile Include="Builder\MumbaiCheesePizzaBuilder.cs" />
@@ -159,6 +166,10 @@
     <Compile Include="Mediator\AbstractMediator.cs" />
     <Compile Include="Mediator\TextPrinter.cs" />
     <Compile Include="Mediator\XMLPrinter.cs" />
+    <Compile Include="MomentoMain.cs" />
+    <Compile Include="Momento\CareTaker.cs" />
+    <Compile Include="Momento\Climate.cs" />
+    <Compile Include="Momento\Momento.cs" />
     <Compile Include="ObserverMain.cs" />
     <Compile Include="Observer\DisplayForecast.cs" />
     <Compile Include="Observer\DisplayStatistics.cs" />
@@ -216,6 +227,9 @@
     <Content Include="Adapter\Adapter.png" />
     <Content Include="Adapter\AdapterGeneral.PNG" />
     <Content Include="Adapter\Definition.txt" />
+    <Content Include="Bridge\Bridge.png" />
+    <Content Include="Bridge\BridgeGeneral.PNG" />
+    <Content Include="Bridge\Definition.txt" />
     <Content Include="Builder\Builder.png" />
     <Content Include="Builder\BuilderGeneral.PNG" />
     <Content Include="Builder\Definition.txt" />
@@ -247,6 +261,9 @@
     <Content Include="Mediator\Definition.txt" />
     <Content Include="Mediator\Mediator.png" />
     <Content Include="Mediator\MediatorGeneral.PNG" />
+    <Content Include="Momento\Definition.txt" />
+    <Content Include="Momento\Momento.png" />
+    <Content Include="Momento\MomentoGeneral.PNG" />
     <Content Include="Observer\Observer.png" />
     <Content Include="Observer\ObserverGeneral.PNG" />
     <Content Include="Observer\Definition.txt" />
