@@ -1,0 +1,23 @@
+﻿Flyweight Pattern
+
+Use sharing to support large numbers of fine-grained objects efficiently.
+
+--In this example we saw that how we reduced the number of objects from 6 to 3.
+
+--Flyweight pattern is used to reduce the number of objects created, to decrease memory and resource usage. As a result it increase performance.
+
+--Basically there are 2 types of Data
+	1. Interensic : It is common for all objects and hence can be shared(Flyweight).
+	2. Exterensic : It is not common and varies with objects.
+
+For example, A text editor has many charaters. If we program to fine details like for every character, then we will have number of objects equal to number of characters in the document.
+Also many of the objects will have some common data. The class has properties like coordinates x, y, font, Symbol, ASCIVal. Out of these properties x,y and font change with every object,
+where as Symbol, ASCIVal are common for group of objects. We need to identify those groups so that all object of that group cam share data. Group like (class A, class B....). We can reduce 1000 objects to
+26 objects.
+
+--Interensic data is stored in Flyweight and Externisic data is passed by client to flyweight.
+
+--If the objects must be identified by an ID then this pattern will not be applicable. In other words if you need to distinguish between Character object for A to another character object A,
+then you cannot possibly share the objects.  
+
+

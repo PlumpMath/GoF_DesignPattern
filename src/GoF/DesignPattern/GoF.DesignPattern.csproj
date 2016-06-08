@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>GoF.DesignPattern.BridgeMain</StartupObject>
+    <StartupObject>GoF.DesignPattern.FlyweightMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -159,6 +159,12 @@
     <Compile Include="Factory\SimpleFactory\Pizza.cs" />
     <Compile Include="Factory\SimpleFactory\PizzaStore.cs" />
     <Compile Include="Factory\SimpleFactory\SimplePizzaFactory.cs" />
+    <Compile Include="FlyweightMain.cs" />
+    <Compile Include="Flyweight\A.cs" />
+    <Compile Include="Flyweight\B.cs" />
+    <Compile Include="Flyweight\FlyweightFactory.cs" />
+    <Compile Include="Flyweight\IFlyweight.cs" />
+    <Compile Include="Flyweight\Z.cs" />
     <Compile Include="MediatorMain.cs" />
     <Compile Include="Mediator\AbstractPrinter.cs" />
     <Compile Include="Mediator\HTMLPrinter.cs" />
@@ -255,6 +261,9 @@
     <Content Include="Factory\FactoryMethod\FactoryMethod.png" />
     <Content Include="Factory\FactoryMethod\FactoryMethodGeneral.PNG" />
     <Content Include="Factory\SimpleFactory\SimpleFactory.png" />
+    <Content Include="Flyweight\Definition.txt" />
+    <Content Include="Flyweight\Flyweight.png" />
+    <Content Include="Flyweight\FlyweightGeneral.PNG" />
     <Content Include="Iterator\Definition.txt" />
     <Content Include="Iterator\Iterator.jpg" />
     <Content Include="Iterator\IteratorGeneral.PNG" />
