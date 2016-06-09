@@ -1,0 +1,6 @@
+﻿Visitor Pattern
+
+Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates. 
+
+--In other word it tells you how to add functionality to all the elements(Duck) in Object structure(SimUApp) without opening/modifying the elements(Mallard, Redhead) itself. With this you can easily add the
+new flying behaviuor but it will be applicabe to all the ducks unlike strategy where each duck can have a different fly behaviour. 
